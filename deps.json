@@ -59,9 +59,9 @@
     "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar",
     "sha256": "0600mssgyfxgs67bwy5lnaa74rh887w1gfppgqglsq3vz81xj33p"
   },
-  "chisel_2.13-5.0.0-RC2.jar": {
-    "url": "https://repo1.maven.org/maven2/org/chipsalliance/chisel_2.13/5.0.0-RC2/chisel_2.13-5.0.0-RC2.jar",
-    "sha256": "1z77610gq38hwm4wpbdqb36d71sandlbbw16xf0j6livg75jjj5h"
+  "chisel_2.13-5.0.0.jar": {
+    "url": "https://repo1.maven.org/maven2/org/chipsalliance/chisel_2.13/5.0.0/chisel_2.13-5.0.0.jar",
+    "sha256": "06kwjx6nx2faplf32r3wxzi6rlbc991jz988ixjiva6nf757abn9"
   },
   "joda-convert-2.2.0.jar": {
     "url": "https://repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar",

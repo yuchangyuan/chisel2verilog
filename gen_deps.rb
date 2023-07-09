@@ -2,7 +2,7 @@
 
 require 'json'
 
-raw = `cs resolve org.chipsalliance::chisel:5.0.0-RC2 -e 2.13`
+raw = `cs resolve org.chipsalliance::chisel:5.0.0 -e 2.13`
 
 out = {}
 

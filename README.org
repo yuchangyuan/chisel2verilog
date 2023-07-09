@@ -17,7 +17,7 @@ actual tar.gz file that can be load with =podman load=
 
 * convertion
 #+begin_src sh
-apptainer pull chisel2verilog_5-0.2.sif docker-archive:result
+apptainer pull chisel2verilog_5-0.3.sif docker-archive:result
 #+end_src
 
 * usage
