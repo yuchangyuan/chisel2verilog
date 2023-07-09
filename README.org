@@ -16,8 +16,15 @@ After success build, a symlink 'result' will be created, which linked to
 actual tar.gz file that can be load with =podman load=
 
 * convertion
+Need podman to convert image to apptainer acceptable format.
+
 #+begin_src sh
-apptainer pull chisel2verilog_5-0.3.sif docker-archive:result
+  podman load -i result
+  podman save localhost/chisel:v0.3 -o tmp.tar.gz
+  podman image rm localhost/chisel:v0.3
+
+  apptainer pull chisel2verilog_5-0.3.sif docker-archive:tmp.tar.gz
+  rm tmp.tar.gz
 #+end_src
 
 * usage
