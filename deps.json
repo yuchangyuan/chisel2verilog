@@ -1,0 +1,98 @@
+{
+  "nscala-time_2.13-2.22.0.jar": {
+    "url": "https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar",
+    "sha256": "172w158hv2bkmk3y9sl0rgiz3qwiy0ksqzcbyk9hsbwqhaagdkbz"
+  },
+  "scopt_2.13-3.7.1.jar": {
+    "url": "https://repo1.maven.org/maven2/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar",
+    "sha256": "081874xxs3igixm97cmq2fkxxw1wr5dyv09zsz8jcvlg6qawv4k5"
+  },
+  "geny_2.13-0.7.1.jar": {
+    "url": "https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.7.1/geny_2.13-0.7.1.jar",
+    "sha256": "0mia8prsrs5lpvym0zkijsmxkjwb1pkg5fr8mjjlpf7pjsvdl0gw"
+  },
+  "os-lib_2.13-0.8.1.jar": {
+    "url": "https://repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.8.1/os-lib_2.13-0.8.1.jar",
+    "sha256": "0vzr1wvc9534x40v0gbj30l4djnqbzxlw4ihgw82lw4si0dc6djh"
+  },
+  "ujson_2.13-2.0.0.jar": {
+    "url": "https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/2.0.0/ujson_2.13-2.0.0.jar",
+    "sha256": "0xdpx6lcdfadm5mvaks5s0fc8ld7mlgxhjrf5hfhvr0r15bl9yi1"
+  },
+  "upack_2.13-2.0.0.jar": {
+    "url": "https://repo1.maven.org/maven2/com/lihaoyi/upack_2.13/2.0.0/upack_2.13-2.0.0.jar",
+    "sha256": "1sr725yccxwfkkh254i75zv6kzj5bbl8050vq2wvzabwyvibjvqm"
+  },
+  "upickle-core_2.13-2.0.0.jar": {
+    "url": "https://repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/2.0.0/upickle-core_2.13-2.0.0.jar",
+    "sha256": "027iv3010871fq7nva2bf1pridn85l201xk1nrabzc5z82hq08dy"
+  },
+  "upickle-implicits_2.13-2.0.0.jar": {
+    "url": "https://repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/2.0.0/upickle-implicits_2.13-2.0.0.jar",
+    "sha256": "147312bx9p3kpylxlfp90niq7ql2hxa00hj0h8diqsxb1ihh9j4v"
+  },
+  "upickle_2.13-2.0.0.jar": {
+    "url": "https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/2.0.0/upickle_2.13-2.0.0.jar",
+    "sha256": "0zxpdcxp6hsjvbmcb8vbal9lrspvgcmaa93im3n999v08ciyqwp3"
+  },
+  "paranamer-2.8.jar": {
+    "url": "https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+    "sha256": "01yzrqxcdv2vc6xj8ymlwj5nhcb0jn620mg8728q2782lqcb3338"
+  },
+  "data-class_2.13-0.2.5.jar": {
+    "url": "https://repo1.maven.org/maven2/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5.jar",
+    "sha256": "1rscwn5xklsz50xcm2k0qv3b4ds435p2f043mz2p60a3lgng9gfy"
+  },
+  "joda-time-2.10.1.jar": {
+    "url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+    "sha256": "0vb1h79dz20d3k8mic10f90hvmvfqfpwnd6ninjhazknaqb6fsfj"
+  },
+  "moultingyaml_2.13-0.4.2.jar": {
+    "url": "https://repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar",
+    "sha256": "15vi9l8hcsd7l9g4350brx1h5ma6ll5v3n0kcniz2q7pi4ixl153"
+  },
+  "commons-lang3-3.12.0.jar": {
+    "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+    "sha256": "0kp9qwqmqp45axxddf9h8ai9yap2j86dl4il366py0vc902dj6fr"
+  },
+  "commons-text-1.10.0.jar": {
+    "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar",
+    "sha256": "0600mssgyfxgs67bwy5lnaa74rh887w1gfppgqglsq3vz81xj33p"
+  },
+  "chisel_2.13-5.0.0-RC2.jar": {
+    "url": "https://repo1.maven.org/maven2/org/chipsalliance/chisel_2.13/5.0.0-RC2/chisel_2.13-5.0.0-RC2.jar",
+    "sha256": "1z77610gq38hwm4wpbdqb36d71sandlbbw16xf0j6livg75jjj5h"
+  },
+  "joda-convert-2.2.0.jar": {
+    "url": "https://repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar",
+    "sha256": "1rmdsbsiy1i9v3q9py7dqxanbm2zpmy8l0pvdip3xkixji88173d"
+  },
+  "json4s-ast_2.13-4.0.6.jar": {
+    "url": "https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/4.0.6/json4s-ast_2.13-4.0.6.jar",
+    "sha256": "0hxvd3fql7bl3vjh9vp187rwyvfixwblhvk1kwlvypk1k53kryn9"
+  },
+  "json4s-core_2.13-4.0.6.jar": {
+    "url": "https://repo1.maven.org/maven2/org/json4s/json4s-core_2.13/4.0.6/json4s-core_2.13-4.0.6.jar",
+    "sha256": "0w8ysp8q0pgl2ckij601qskp7m1bhda5q3rdc6kpapd009w6nykz"
+  },
+  "json4s-native-core_2.13-4.0.6.jar": {
+    "url": "https://repo1.maven.org/maven2/org/json4s/json4s-native-core_2.13/4.0.6/json4s-native-core_2.13-4.0.6.jar",
+    "sha256": "0r8wvx82v3q8x24b24vglpkcw5xlxfzibzldj6am9wjybhpm87p5"
+  },
+  "json4s-native_2.13-4.0.6.jar": {
+    "url": "https://repo1.maven.org/maven2/org/json4s/json4s-native_2.13/4.0.6/json4s-native_2.13-4.0.6.jar",
+    "sha256": "1ip057qvbm0yw77nwbwm7sc4vzgrkhx6v1x2rxv6yg7lk7r9s27p"
+  },
+  "json4s-scalap_2.13-4.0.6.jar": {
+    "url": "https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/4.0.6/json4s-scalap_2.13-4.0.6.jar",
+    "sha256": "0qa33k12f3z16krpi2zycz7w5a3dxm1xx8cwf1xmsnd6w9cz7wjg"
+  },
+  "scala-parallel-collections_2.13-1.0.4.jar": {
+    "url": "https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar",
+    "sha256": "19x9s4f2dl8xgy3skr5pi3i0q6a1w90djnlhdskj1jrpzb26dwk8"
+  },
+  "snakeyaml-1.26.jar": {
+    "url": "https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar",
+    "sha256": "0i58fvmw511ll6mxb1w7vybxc19fihgfdjn10dn3b188a1z60zfq"
+  }
+}

@@ -1,0 +1,20 @@
+#+title: chisel2verilog
+
+Files for building a docker image that convert chisel source to SystemVerilog.
+Recommanded way to use this image is convert to apptainer sif image, then run
+with apptainer.
+
+* build
+A Nix environment with flake support is necessary, use below command to build
+the image:
+
+#+begin_src sh
+nix build
+#+end_src
+
+After success build, a symlink 'result' will be created, which linked to
+actual tar.gz file that can be load with =podman load=
+
+* convertion
+
+* usage
