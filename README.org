@@ -16,5 +16,43 @@ After success build, a symlink 'result' will be created, which linked to
 actual tar.gz file that can be load with =podman load=
 
 * convertion
+#+begin_src sh
+apptainer pull chisel2verilog_5-0.2.sif docker-archive:result
+#+end_src
 
 * usage
+Assume below scala code placed in =src= directory, with name =Cnt.scala=
+#+begin_src scala
+package test
+
+import chisel3._
+
+class Cnt extends Module {
+  override val desiredName = "cnt"
+
+  val io = IO(new Bundle {
+    val inc = Input(Bool())
+    val clr = Input(Bool())
+    val cnt = Output(UInt(8.W))
+  })
+
+  val cntReg = RegInit(0.U(8.W))
+
+  when (io.inc) {
+    cntReg := cntReg + 1.U
+  }
+
+  when (io.clr) {
+    cntReg := 0.U
+  }
+
+  io.cnt := cntReg
+}
+#+end_src
+
+Then with below command, =test.Cnt= module will convert to =cnt.sv= in =rtl= directory.
+#+begin_src
+mkdir rtl
+
+./chisel2verilog_5-0.2.sif src/*.scala -- test.Cnt -td rtl
+#+end_src
