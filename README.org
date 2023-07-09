@@ -63,4 +63,7 @@ cd example
 mkdir -p rtl
 
 ../chisel2verilog_5-0.3.sif src/*.scala -- test.Cnt -td rtl
+
+# or strip debug info with below command
+../chisel2verilog_5-0.3.sif src/*.scala -- test.Cnt -td rtl -- --strip-debug-info
 #+end_src
