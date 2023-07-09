@@ -28,7 +28,7 @@ Need podman to convert image to apptainer acceptable format.
 #+end_src
 
 * usage
-Assume below scala code placed in =src= directory, with name =Cnt.scala=
+Below scala code is placed in =example/src= directory, with name =cnt.scala=
 #+begin_src scala
 package test
 
@@ -59,7 +59,8 @@ class Cnt extends Module {
 
 Then with below command, =test.Cnt= module will convert to =cnt.sv= in =rtl= directory.
 #+begin_src
-mkdir rtl
+cd example
+mkdir -p rtl
 
-./chisel2verilog_5-0.2.sif src/*.scala -- test.Cnt -td rtl
+../chisel2verilog_5-0.3.sif src/*.scala -- test.Cnt -td rtl
 #+end_src
