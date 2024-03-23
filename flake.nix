@@ -41,7 +41,7 @@
         name = "chisel-base";
         tag = "v0.2";
 
-        contents = with pkgs; [
+        copyToRoot = with pkgs; [
           usrBinEnv
           binSh
 
@@ -58,7 +58,7 @@
 
       chisel = buildImage {
         name = "chisel";
-        tag = "v0.3";
+        tag = "v0.4";
 
         diskSize = 3000;
 

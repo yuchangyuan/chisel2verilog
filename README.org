@@ -20,10 +20,10 @@ Need podman to convert image to apptainer acceptable format.
 
 #+begin_src sh
   podman load -i result
-  podman save localhost/chisel:v0.3 -o tmp.tar.gz
-  podman image rm localhost/chisel:v0.3
+  podman save localhost/chisel:v0.4 -o tmp.tar.gz
+  podman image rm localhost/chisel:v0.4
 
-  apptainer pull chisel2verilog_5-0.3.sif docker-archive:tmp.tar.gz
+  apptainer pull chisel2verilog_5-0.4.sif docker-archive:tmp.tar.gz
   rm tmp.tar.gz
 #+end_src
 
@@ -62,8 +62,8 @@ Then with below command, =test.Cnt= module will convert to =cnt.sv= in =rtl= dir
 cd example
 mkdir -p rtl
 
-../chisel2verilog_5-0.3.sif src/*.scala -- test.Cnt -td rtl
+../chisel2verilog_5-0.4.sif src/*.scala -- test.Cnt -td rtl
 
 # or strip debug info with below command
-../chisel2verilog_5-0.3.sif src/*.scala -- test.Cnt -td rtl -- --strip-debug-info
+../chisel2verilog_5-0.4.sif src/*.scala -- test.Cnt -td rtl -- --strip-debug-info
 #+end_src
